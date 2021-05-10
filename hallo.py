@@ -8,4 +8,4 @@ def hello_world():
 
 
 if __name__ == "__main__":
-    app.run(ssl_context='adhoc')
+    app.run(ssl_context='adhoc') #Risolve problemi di richiesta HTTPS e problemi legati al CSS
