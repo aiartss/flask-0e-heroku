@@ -8,4 +8,4 @@ def hello_world():
 
 
 if __name__ == "__main__":
-    app.run(host="https://flask-0e.herokuapp.com" ssl_context='adhoc') 
+    app.run(ssl_context='adhoc') 
