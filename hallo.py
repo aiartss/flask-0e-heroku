@@ -4,8 +4,5 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return render_template('index.html')
-
-
-if __name__ == "__main__":
     app.run(ssl_context=('cert.pem','key.pem')) 
+    return render_template('index.html')
